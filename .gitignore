@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Expo / native build output
+.expo/
+dist/
+web-build/
+android/
+ios/
+
+# Firebase config (contains project keys — keep out of the repo)
+google-services.json
+GoogleService-Info.plist
+src/config/firebaseConfig.js
+
+# Env / secrets
+.env
+.env.local
+
+# Logs & OS
+*.log
+.DS_Store
+npm-debug.*
+yarn-error.*
