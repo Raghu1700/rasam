@@ -8,10 +8,9 @@ web-build/
 android/
 ios/
 
-# Firebase config (contains project keys — keep out of the repo)
+# Firebase native config (contains project keys — keep out of the repo)
 google-services.json
 GoogleService-Info.plist
-src/config/firebaseConfig.js
 
 # Env / secrets
 .env
@@ -22,3 +21,8 @@ src/config/firebaseConfig.js
 .DS_Store
 npm-debug.*
 yarn-error.*
+
+# Local build-debug artifacts
+build-raw.bin
+build-phase.*
+eas-build.log
